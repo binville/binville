@@ -20,6 +20,10 @@
   "scripts": {
     "start": "hexo server",
     "newpost": "hexo new post",
-    "deploy": "hexo clean && hexo generate --deploy"
+    "newpage": "hexo new page",
+    "clean": "hexo clean",
+    "generate": "hexo generate",
+    "regen": "npm run clean && npm run generate",
+    "deploy": "npm run clean && hexo generate --deploy"
   }
 }

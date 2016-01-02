@@ -4,17 +4,17 @@
 
 # Site
 title: binville
-subtitle:
+subtitle: a web comic
 description:
-author: A/K Goode
+author: Kellan G
 language: en
 timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://binville.com
+url: http://binville.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
