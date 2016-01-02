@@ -18,9 +18,8 @@
     "hexo-server": "^0.1.2"
   },
   "scripts": {
-    "generate": "hexo generate",
     "start": "hexo server",
     "newpost": "hexo new post",
-    "deploy": "hexo deploy"
+    "deploy": "hexo clean && hexo generate --deploy"
   }
 }
