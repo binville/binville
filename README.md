@@ -20,15 +20,20 @@ You'll only need to do these things once. (More details on what each of these me
 will come later.)
 
 1. Create a [GitHub account](https://github.com/join)
+
 2. Ask me for an invitation to the [binville organization](https://github.com/binville)
+
 3. Install git, Node.js, and the Atom text editor on your local computer
+
 4. Download this repository on your computer with the following command:
 
     ```
     git clone git@github.com:binville/binville.git binville
     ```
 
-5. Create an ssh key pair on your computer and add the public key to your GitHub account
+5. Download the project's dependencies by running `npm i`
+
+6. Create an ssh key pair on your computer and add the public key to your GitHub account
 
 ## Adding a New Strip
 
@@ -45,8 +50,11 @@ Here's the process for adding a new strip to the web site:
     Don't forget to sign the strip!
 
 2. Scan the strip as a `.png` file, e.g. `binville003.png`
+
 3. Crop the strip
+
 4. Copy the cropped `.png` file to your local `source` directory of this repo
+
 5. Add a new "post" by running the following command:
 
     ```
