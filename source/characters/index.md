@@ -33,7 +33,9 @@ Keeps Don out of trouble.
 
 ## Big Billy
 
-A bully.
+An annoying, tough bully.
+
+<img alt="Big Billy" src="/bigbilly.png">
 
 ## Quentin's Dad
 
